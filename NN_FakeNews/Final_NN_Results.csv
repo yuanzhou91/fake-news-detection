@@ -1,0 +1,25 @@
+ModelName,Training Execution Time (seconds),Training Accuracy,Development Accuracy,Test Accuracy,Area under ROC curve
+Conv1D Word embedding,16.677,1,0.9278,0.9333,0.9778
+Conv1D 0.25 Dropout Word embedding,17.403,1,0.9238,0.9251,0.9759
+BidirectionLSTM  Word embedding,108.3421,0.9963,0.9304,0.9224,0.9751
+BidirectionLSTM 0.5 dropout Word embedding,137.1982,0.9994,0.9249,0.9273,0.9748
+Conv1D 0.5 Dropout Word embedding,16.188,0.9999,0.9264,0.9256,0.9746
+BidirectionLSTM 0.25 dropout Word embedding,152.1701,0.9997,0.9347,0.93,0.9741
+LSTM 0.25 Dropout Word embedding,102.7748,0.9982,0.9278,0.9114,0.9702
+LSTM Word embedding,97.6426,0.998,0.9169,0.9289,0.9698
+LSTM 0.5 Dropout Word embedding,102.1575,0.9917,0.9223,0.9207,0.9688
+GRU.NN 0.25 Dropout Word embedding,96.6496,0.9972,0.9147,0.9163,0.9683
+GRU.NN Word embedding,113.4421,0.9953,0.9154,0.9081,0.9679
+GRU.NN 0.25 Dropout Word embedding,103.7408,0.9997,0.922,0.9202,0.9651
+Bidirection LSTM One Hot Encoding,209.0252,0.9039,0.8925,0.8841,0.9317
+Bidirectional LSTM 0.25 Dropout One Hot Encoding,197.9242,0.8973,0.8859,0.8792,0.9308
+Bidirection LSTM 0.25 Dropout One Hot Encoding,202.6312,0.8347,0.8254,0.8305,0.9205
+LSTM 0.25 Dropout One Hot Encoding,159.9644,0.8178,0.8097,0.8097,0.8899
+Conv1D One Hot Encoding,23.074,0.8076,0.7991,0.8037,0.8875
+Conv1D Dropout 0.25 one hot encoding,28.3782,0.8035,0.7926,0.7955,0.8819
+GRU.NN One Hot Encoding,132.1352,0.7818,0.7678,0.7731,0.8805
+GRU.NN 0.5 Dropout One Hot Encoding,126.2068,0.8736,0.8735,0.8546,0.8791
+Conv1D Dropout 0.25 one hot encoding,26.0612,0.8019,0.7951,0.7999,0.8778
+LSTM 0.5 Dropout One Hot Encoding,156.1624,0.7741,0.7619,0.7709,0.8152
+LSTM One Hot Encoding,160.8813,0.774,0.7616,0.7709,0.8136
+GRU.NN 0.25 Dropout One Hot Encoding,110.1679,0.776,0.7619,0.7715,0.8059
